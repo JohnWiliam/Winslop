@@ -5,39 +5,36 @@
 # Built to remove things. Not to impress you.
 
 > *“We need to get beyond the arguments of slop vs sophistication…”*  
-> — Satya Nadella
-> 
+> — Satya Nadella  
+>
 > “Slop” = stuff that ships by default, wastes resources, and takes control away, while doing basically nothing for you
 
-This started as a joke.
-Then Microsoft said “slop vs sophistication” out loud and it stopped being one.
-If this tool needs marketing, it probably shouldnt exist 😆
+This started as a joke.  
+Then Microsoft said “slop vs sophistication” out loud and it stopped being one.  
+If this tool needs marketing, it probably shouldn’t exist 😆
 
+---
 
-To be clear:
-**Windows isn’t bad.** I actually like it.
-**But the direction of Windows 11 is.**  
-So I built this again. Cheaper than therapy. Comes with toggles.
+# winslop
 
-## What it does
+```text
+Windows
+└── slop
+    ├── telemetry
+    ├── assistants
+    ├── ads
+    ├── suggestions
+    └── background junk
+         ↓
+      removed
+         ↓
+       thanks
+        Satya
+```
 
-Winslop does exactly what the name suggests:
-- removes slop
-- tones down what can’t be removed
-- shows what’s running / enabled
-- gives you control back
-
-No cloud. No assistants. No “smart” magic.
-Just local changes, explicit choices, and a way back.
-
-Everything is deterministic and reversible.
-
-## Where it comes from
-
-**Under the hood this is a very small, very focused fork of my earlier project [CrapFixer](https://github.com/builtbybel/CrapFixer)**.
-Localization never really happened there.
-Winslop will likely get it soon, mostly because the codebase is drastically smaller.
+remove the slop.
 Nothing fancy. Just tools.
+
 
 ## FAQ
 <sub>Click to expand. No assistant required.</sub>
