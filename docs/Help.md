@@ -130,6 +130,7 @@ Some changes may require sign-out or restart to fully take effect.
 
 Use the new **Export/Import** feature for TreeList selections.
 
+<p><em>Note:</em> This was the behavior in older builds.</p>
 If you place **`winslop-selection.sel`** in the same folder as **`Winslop.exe`**, Winslop will detect it automatically and offer an import.
 </details>
 
